@@ -1,0 +1,63 @@
+body {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#searchContainer {
+    margin-bottom: 20px;
+}
+
+#searchQuery {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+#videoResults{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+.video-card {
+    background-color: #444; /* Darker background for video cards */
+    border-radius: 10px;
+    width: 250px;
+    /* height: 50px; */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    text-align: left;
+}
+iframe{
+    height: 350px ;
+    width: 100%;
+}
+.video-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.video-description {
+    margin-bottom: 10px;
+}
